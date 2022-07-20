@@ -1,0 +1,50 @@
+/* стили секции "Чем мы занимаемся" */
+
+.about {
+  padding-top: 0px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__img {
+  display: block;
+}
+
+.gallery__img-box {
+  position: relative;
+}
+
+.gallery__text-box {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  width: 100%;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.gallery__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: $light-text-color;
+}
